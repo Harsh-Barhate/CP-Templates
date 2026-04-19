@@ -26,7 +26,7 @@ public:
         seg.resize(4*n+1);
     }
 
-    void build(int ind, int low, int high, vector<int> arr){
+    void build(int ind, int low, int high, vector<int>& arr){
         // BC
         if(low == high){
             seg[ind] = arr[low];
