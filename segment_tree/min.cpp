@@ -64,7 +64,7 @@ public:
     void update(int ind, int low, int high, int i, int val){
         // BC
         if(low == high){
-            seg[ind] == val;
+            seg[ind] = val;
             return;
         }
 
